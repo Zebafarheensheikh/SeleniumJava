@@ -41,6 +41,25 @@ public class CoreJavaBasics {
 		{
 			System.out.println(Arr[i]);
 		}
+		for(String s:Arr)     // simplest way to print all the value 
+		{
+			System.out.println(s);
+		}
+		
+// If statement in for loop:
+		int[] A= {1,2,3,4,5,6,7,8,9,10,122};
+		for(int i=0;i<A.length;i++)
+		{
+			if(A[i] % 2==0)
+			{
+				System.out.println(A[i]);
+				break;
+		}
+			else
+			{
+				System.out.println(A[i] +" is not a multiple of 2");
+			}
+		}
 	}
 
 }
