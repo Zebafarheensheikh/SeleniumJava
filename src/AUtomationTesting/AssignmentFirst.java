@@ -1,5 +1,7 @@
 package AUtomationTesting;
 
+import java.util.ArrayList;
+
 public class AssignmentFirst {
 
 	public static void main (String[] args) {
@@ -34,6 +36,23 @@ public class AssignmentFirst {
 	    	
 	    }
 	    System.out.println("sum of total numbers of array " + Total);
+	    
+	    ArrayList<String> AL = new ArrayList<String>();
+	    AL.add("Zeba");
+	    AL.add("Sheikh");
+	    AL.add("Array");
+	    AL.add("List");
+	    AL.add("SCript");
+	    
+	    for(int i=0;i<AL.size();i++)
+	    {
+	    	System.out.println(AL.get(i));
+	    }
+	    //enhanced for loop
+	    for(String variable_1:AL)
+	    {
+	    	System.out.println(variable_1);
+	    }
 	    
 	    }
 
